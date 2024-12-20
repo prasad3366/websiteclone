@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#firstpara{
+    width: 100vw;
+    height: 450px;
+    display: flex;
+
+}
+#lines{
+    width: 50%;
+    height: 450px;
+    
+}
+#video{
+    width: 50%;
+    height: 450px;
+    padding-right: 10px;
+}
+iframe{
+    border: none;
+}
+#title{
+    font-size: 50px;
+    color: white;
+    margin-left: 60px;
+}
+.lines{
+    color: white;
+    margin-left: 60px;
+    float: left;
+    background-color: gray;
+    border-radius: 5px;
+}
+#price{
+    color: white;
+    margin-left: 60px;
+    font-size: 30px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#seats{
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    margin-left: 80px;
+    margin-top: 60px;
+    color: rgba(0, 0, 0, 0.279);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px ;
+}
+#secondblock{
+    width: 100vw;
+    height: 200px;
+    font-size: 100px;
+    margin-left: 60px;
+}
+#consis{
+    color:aquamarine ;
+}
+#keypoints{
+    width: 100vw;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.spantag{
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    background-color: gray;
+    border-radius: 20px;
+    
+}
