@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block paragraph %}
+<link rel="stylesheet" href="{% static 'bootcamp.css' %}">
+<div id="firstpara">
+    <div id="lines">
+        <h1 id="title">6 months In-
+            House <br>
+            Bootcamp 
+            programme - <br>
+            Kodr.</h1>
+            <p class="lines">Placement Assitance</p>
+            <p class="lines">Starton:27 DEC 2024</p>
+            <br><br>
+            <p id="price">Price ₹59000<sub>[5000+18%GST]</sub></p>
+            <span id="seats">Seats Are Full</span>
+    </div>
+    <div id="video">
+        <iframe src="https://www.youtube.com/embed/60SRAWmMXyc" width="100%" height="100%"></iframe>
+    </div>
+</div>
+<div id="secondblock">
+    <p>WE believe in,</p>
+    <p><span id="consis">Consistency</span>.No shortcuts.</p>
+</div>
+<div id="keypoints">
+    <span class="spantag">
+        <p>MERN Stack 💫</p>
+    </span><br>
+    <span class="spantag">
+        <p>Data Structures &amp; Algorithm🗿</p>
+    </span>
+</div>
+{% endblock paragraph %}
